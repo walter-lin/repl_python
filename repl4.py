@@ -70,3 +70,9 @@
 #     sum +=  p
 # print(sum)
 
+#4.9
+# a = int(input())
+# cout = 0
+# for i in range(1,a):
+#     cout =  i + cout -int(input())
+# print(cout+a)
