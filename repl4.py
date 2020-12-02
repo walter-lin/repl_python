@@ -53,7 +53,11 @@
 # print(conut)
 
 #4.6
-
+# a = int(input())
+# ans = 1
+# for i in range(a):
+#     ans = ans*(i +1)
+# print(ans)
 
 #4.8
 # a = int(input())
