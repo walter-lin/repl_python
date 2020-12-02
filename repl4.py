@@ -76,3 +76,10 @@
 # for i in range(1,a):
 #     cout =  i + cout -int(input())
 # print(cout+a)
+
+# #4A
+# n = int(input())
+# for i in range(1,(n+1)):
+#     for j in range(1,(i+1)):
+#         print(j,end='')
+#     print('',sep='')
