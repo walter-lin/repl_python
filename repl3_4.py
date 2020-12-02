@@ -244,3 +244,52 @@
 #   y4 = y2
 # else:
 #   y4 = y1
+
+#3O
+# x1 = int(input())
+# x2 = int(input())
+# x3 = int(input())
+
+# if x1 < x2 and x1 < x3:
+#     min = x1
+#     if x2 < x3:
+#         mid = x2
+#         max = x3
+#     else:
+#         mid = x3
+#         max = x2
+# elif x2 < x3 :
+#     min = x2
+#     if x1 < x3 :
+#         mid = x1
+#         max = x3
+#     else:
+#         mid = x3
+#         max = x1
+# else:
+#     min = x3
+#     if x1 <x2:
+#         mid = x1
+#         max = x2
+#     else:
+#         mid = x2
+#         max = x1
+# print(min,mid,max,sep='\n') 
+
+#另一種寫法
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# if a <= b <= c:
+#   print(a, b, c, sep='\n')
+# elif a <= c <= b:
+#   print(a, c, b, sep='\n')
+# elif b <= a <= c:
+#   print(b, a, c, sep='\n')
+# elif b <= c <= a:
+#   print(b, c, a, sep='\n')
+# elif c <= a <= b:
+#   print(c, a, b, sep='\n')
+# else:
+#   print(c, b, a, sep='\n')
