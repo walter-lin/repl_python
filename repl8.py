@@ -1,8 +1,9 @@
 #範例
 # n = 3
 # m = 4 
-# # a = [ [0] * m ] * n 錯誤示範
+# a = [ [0] * m ] * n  
 # a = [ [0] * m for i in range(n) ]
+
 # a[1][0] = 5
 # a[2][3] = 7
 # for row in a : 
@@ -49,18 +50,18 @@
 #     print(''.join([str(i) for i in r]))
 
 #8.3 函式寫法
-def print2DList(arr):
-    """
-    (註解寫這裡) 印出一個2DList
-    """
-    for r in arr:
-        print(' '.join([str(i) for i in r]))
+# def print2DList(arr):
+#     """
+#     (註解寫這裡) 印出一個2DList
+#     """
+#     for r in arr:
+#         print(' '.join([str(i) for i in r]))
 
-n = int(input())
-a = [ [0] * n for i in range(n) ]
+# n = int(input())
+# a = [ [0] * n for i in range(n) ]
 
-for i in range(n):
-    for j in range(n):
-        a[i][j] = abs(i-j)
+# for i in range(n):
+#     for j in range(n):
+#         a[i][j] = abs(i-j)
 
-print2DList(a)
+# print2DList(a)

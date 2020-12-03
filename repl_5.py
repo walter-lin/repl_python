@@ -21,3 +21,12 @@
 # #another ans
 # print(len(input().split()))
 
+#3
+# s = input()
+# cont = int(len(s)/2)
+# print(s[-cont:] , s[:(-cont)] , sep='' )
+
+# #another ans
+# s = input()
+# mid = (len(s) + 1) // 2
+# print(s[mid:] + s[:mid])
