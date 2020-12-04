@@ -57,3 +57,21 @@
 # else:
 #   print(s.find('f'), s.rfind('f'))
 
+#5.6
+# s = input().replace( 'p', '2',2 )
+# if s.find('2') == -1:
+#     print(-2)
+# elif s.count('2') == 1:
+#     print(-1)
+# else:
+#     print(s.rfind('2'))
+
+
+
+
+# s= input()
+# if s.find('p') == -1:
+#     print(-2)
+# elif s.find('p') == s.rfind('p'):
+#     print(-1)
+# else
