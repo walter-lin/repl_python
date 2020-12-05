@@ -18,7 +18,7 @@
 #         cout += 1 
 # print(cout)
 
-# else
+# another_ans
 # print(len(input().split()))
 
 #5.3
@@ -26,7 +26,7 @@
 # cont = int(len(s)/2)
 # print(s[-cont:] , s[:(-cont)] , sep='' )
 
-# else
+# another_ans
 # s = input()
 # mid = (len(s) + 1) // 2
 # print(s[mid:] + s[:mid])
@@ -35,7 +35,7 @@
 # s = input().split()
 # print(s[-1] , s[-2])
 
-# else
+# another_ans
 # word1, word2 = input().split()
 # print(word2, word1)
 
@@ -50,7 +50,7 @@
 #         l = i
 # print(f , l)
 
-# else
+# another_ans
 # s = input()
 # if s.find('f') == s.rfind('f'):
 #   print(s.find('f'))
@@ -66,8 +66,7 @@
 # else:
 #     print(s.rfind('2'))
 
-
-
+# another_ans
 
 # s= input()
 # if s.find('p') == -1:
@@ -75,3 +74,13 @@
 # elif s.find('p') == s.rfind('p'):
 #     print(-1)
 # else
+
+#5.7
+s = input()
+a = s.find('h')
+b = s.rfind('h')
+for i in range(len(s)):
+    if a <= i <= b:
+        print('',end='')
+    else:
+        print(s[i],end='')
