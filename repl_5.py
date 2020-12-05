@@ -67,7 +67,6 @@
 #     print(s.rfind('2'))
 
 # another_ans
-
 # s= input()
 # if s.find('p') == -1:
 #     print(-2)
@@ -76,11 +75,16 @@
 # else
 
 #5.7
-s = input()
-a = s.find('h')
-b = s.rfind('h')
-for i in range(len(s)):
-    if a <= i <= b:
-        print('',end='')
-    else:
-        print(s[i],end='')
+# s = input()
+# a = s.find('h')
+# b = s.rfind('h')
+# for i in range(len(s)):
+#     if a <= i <= b:
+#         print('',end='')
+#     else:
+#         print(s[i],end='')
+
+#another ans 
+# s = input()
+# print(s[:s.find('h')] + s[s.rfind('h') + 1:])
+
