@@ -89,7 +89,16 @@
 # print(s[:s.find('h')] + s[s.rfind('h') + 1:])
 
 #5.8
-s = input()
-t = s[:s.find('h')]+s[s.rfind('h'):s.find('h'):-1]+s[s.rfind('h'):]
-print(t)
+# s = input()
+# t = s[:s.find('h')]+s[s.rfind('h'):s.find('h'):-1]+s[s.rfind('h'):]
+# print(t)
 
+#5.9
+# s = input()
+# print(s.replace('1','one'))
+
+#5.A
+# print(input().replace('@',''))
+
+#5.B
+s = input()
