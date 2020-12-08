@@ -101,4 +101,14 @@
 # print(input().replace('@',''))
 
 #5.B
-s = input()
+# s = input().replace('h','H')
+# for i in range(len(s)):
+#     if s.find('h') != i and s.rfind('h') != i:
+#         print(s[i],end='')
+#     else:
+#         print('h',end='')
+
+#5.B ans2
+# s = input()
+# print(s[:s.find('h')+1],s[s.find('h')+1:s.rfind('h')].replace('h','H'),s[s.rfind('h'):],sep='')
+
