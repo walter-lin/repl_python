@@ -99,16 +99,18 @@
 #     a = int(input())
 # print(Max_i)
 
-#6C 未完成
+#6C 
 # a = int(input())
-# sec = 0
-# max = 0
+# a1 = 0
+# a2 = 0
 # while a != 0:
-#     if  a>max :
-#         sec = max
-#         max = a
+#     if a >= a1:
+#         a2 = a1
+#         a1 = a
+#     elif a >= a2:
+#         a2 = a
 #     a = int(input())
-# print(sec)
+# print(a2)
 
 #6F
 # n = int(input())
