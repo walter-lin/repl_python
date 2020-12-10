@@ -112,3 +112,8 @@
 # s = input()
 # print(s[:s.find('h')+1],s[s.find('h')+1:s.rfind('h')].replace('h','H'),s[s.rfind('h'):],sep='')
 
+#5.C
+s = input()
+for i in range(len(s)):
+    if i % 3 != 0:
+        print(s[i],end='') 
