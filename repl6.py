@@ -112,6 +112,27 @@
 #     a = int(input())
 # print(a2)
 
+#6D
+# a = int(input())
+# max = 0
+# cont = 1
+# while a != 0:
+#     if a > max:
+#         max = a
+#         cont = 1
+#     elif a == max:
+#         cont += 1
+#     a = int(input())
+# print(cont)
+
+#6E
+a = int(input())
+while a != 0:
+    
+    
+
+
+
 #6F
 # n = int(input())
 # i = 3
