@@ -126,11 +126,20 @@
 # print(cont)
 
 #6E
-a = int(input())
-while a != 0:
-    
-    
-
+s2 = int(input())
+s1 = -1 
+cont = 1
+max = 1
+while s2 != 0:
+    if s2 == s1:
+        cont += 1
+        if cont > max:
+            max = cont
+    else:
+        cont = 1
+    s1 = s2
+    s2 = int(input())
+print(max)
 
 
 #6F
